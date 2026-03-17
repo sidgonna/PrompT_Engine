@@ -1,0 +1,24 @@
+.confirm-modal {
+  width: 400px;
+  max-width: 90vw;
+}
+
+.confirm-header-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.text-danger {
+  color: var(--danger-color);
+}
+
+.text-amber {
+  color: #f59e0b;
+}
+
+.modal-body p {
+  color: var(--text-secondary);
+  line-height: 1.5;
+  font-size: 14px;
+}

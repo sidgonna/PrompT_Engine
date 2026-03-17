@@ -1,0 +1,108 @@
+{
+  "id": "ca471d4d-a12b-46d7-b5df-746336fb72d4",
+  "name": "Exercise Visual Case",
+  "dimensions": [
+    {
+      "id": "5ac2688f-91ff-4ec3-a0dc-6c82359eca2d",
+      "name": "Subtopic",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "e6fb0a09-b94a-488b-8693-cba1bec28030",
+          "value": "Yoga"
+        },
+        {
+          "id": "105eaa3b-6e3c-401b-a60e-fd06117f2527",
+          "value": "Strength training"
+        },
+        {
+          "id": "4d1c6c68-9ac3-47a3-b64b-a53797c4d912",
+          "value": "Cardio"
+        }
+      ]
+    },
+    {
+      "id": "322d7913-1dfe-4f8c-b5e1-fa798b8523c7",
+      "name": "Prompt Type",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "c012cb32-a8c8-4683-9986-380ec2c42b40",
+          "value": "Daily Exercise Challenge"
+        },
+        {
+          "id": "c116e035-2f2f-4ddd-be81-b84a945e8da7",
+          "value": "Mirror Talk Poster"
+        },
+        {
+          "id": "99fc60b9-acc3-4fa0-a7d6-646967d427fb",
+          "value": "Before & After"
+        }
+      ]
+    },
+    {
+      "id": "ebd34dd2-166e-4c03-be08-745388a52adb",
+      "name": "Tone",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "ab86f069-ad08-4ff5-8fca-cdc936b936f5",
+          "value": "Encouraging"
+        },
+        {
+          "id": "4a7404c7-d162-42fa-8ac9-1b06bb378a4c",
+          "value": "Motivational"
+        },
+        {
+          "id": "73edb66b-5213-4b45-9b22-ceb7af0fa454",
+          "value": "Scientific"
+        }
+      ]
+    },
+    {
+      "id": "67c91e27-3c33-454f-8ed4-557cdefa7110",
+      "name": "Character",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "b1c5601f-5f27-407f-a92a-2d006e723bcc",
+          "value": "Sloth"
+        },
+        {
+          "id": "6478b518-2287-4414-a646-4022efd5aa8f",
+          "value": "Robot coach"
+        },
+        {
+          "id": "2d2ccbaf-c8d8-40c6-b5fd-a83e53fb2935",
+          "value": "Gym newbie"
+        }
+      ]
+    },
+    {
+      "id": "af7c2039-e552-42c0-99fb-3a04c89322b9",
+      "name": "Layout",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "8c0c0381-c247-40ed-8822-8120435e4137",
+          "value": "1-sided Poster"
+        },
+        {
+          "id": "71215c04-8c55-4dd6-8041-324f29aba249",
+          "value": "Mirror Layout"
+        },
+        {
+          "id": "88db8b62-f3a6-4e4f-b16b-57982f2c462d",
+          "value": "Progress Tracker"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-03-17T04:21:40.786Z",
+  "updatedAt": "2026-03-17T04:21:40.809Z"
+}

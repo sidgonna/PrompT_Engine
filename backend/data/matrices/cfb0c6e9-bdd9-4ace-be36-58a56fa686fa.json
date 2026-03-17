@@ -1,0 +1,64 @@
+{
+  "id": "cfb0c6e9-bdd9-4ace-be36-58a56fa686fa",
+  "name": "kilo",
+  "dimensions": [
+    {
+      "id": "a77b2c06-a8df-4ab5-9fb3-c19bf5a97d51",
+      "name": "Cakes",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "88a26d9b-6070-4c8c-be53-87b0007e60cb",
+          "value": "cup cake"
+        },
+        {
+          "id": "125b77ad-0215-43b2-a791-abba1ba297f0",
+          "value": "pan cake"
+        },
+        {
+          "id": "c3a88d6c-53d4-4d8c-91ad-6b9d73d071d8",
+          "value": "cream cake"
+        },
+        {
+          "id": "8f331415-df37-45c1-943f-af65eaa59b5a",
+          "value": "cake"
+        },
+        {
+          "id": "5345b51b-e776-41da-b2f6-2a6bbd380131",
+          "value": "ice cream cake"
+        }
+      ]
+    },
+    {
+      "id": "6f5c2d95-7415-48aa-9cfd-6175875351c4",
+      "name": "favour",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "cb471961-6323-4a64-b2f3-a965afb48075",
+          "value": "red valvet"
+        },
+        {
+          "id": "245c2b1f-275a-4158-b344-3bb4054c171c",
+          "value": "strwaberry"
+        },
+        {
+          "id": "31c720f9-f719-402e-8163-3b08cdcf46df",
+          "value": "vanilla"
+        },
+        {
+          "id": "e47ddbb0-ffab-434a-9a50-55f6a1b05fa6",
+          "value": "chocolate"
+        },
+        {
+          "id": "28413fc5-288b-4b11-a41d-c61b33008d15",
+          "value": "butterscotch"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-03-16T18:54:17.268Z",
+  "updatedAt": "2026-03-16T18:56:24.832Z"
+}

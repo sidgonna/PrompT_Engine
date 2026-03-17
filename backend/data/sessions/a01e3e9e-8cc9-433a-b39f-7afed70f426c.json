@@ -1,0 +1,23 @@
+{
+  "id": "a01e3e9e-8cc9-433a-b39f-7afed70f426c",
+  "configId": "442e6170-8ab8-4372-8d98-4ec3d0513214",
+  "matrixId": "cfb0c6e9-bdd9-4ace-be36-58a56fa686fa",
+  "executionResult": {
+    "resolvedValues": {
+      "ba47cb7b-ea8f-4fa0-b8ec-aa500a378143": "cup cake"
+    },
+    "outputs": [
+      {
+        "index": 0,
+        "prompt": "create a <cakes> with the <favour> flavour\n\n--- Output Requirements ---\nOutput type: text"
+      }
+    ],
+    "metadata": {
+      "totalTime": 3,
+      "stepsExecuted": 1,
+      "stepsSkipped": 0,
+      "warnings": []
+    }
+  },
+  "createdAt": "2026-03-16T18:58:37.336Z"
+}

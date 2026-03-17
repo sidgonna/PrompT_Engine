@@ -1,0 +1,94 @@
+{
+  "id": "8cb34f66-6a1c-4ff3-9fa7-e8c0a732bd8b",
+  "name": "Exercise Visual Strategy",
+  "matrixId": "ca471d4d-a12b-46d7-b5df-746336fb72d4",
+  "mode": "batch",
+  "batchSettings": {
+    "totalCount": 2
+  },
+  "steps": [
+    {
+      "id": "x1",
+      "order": 0,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Subtopic",
+      "template": "",
+      "dimensionRef": "5ac2688f-91ff-4ec3-a0dc-6c82359eca2d"
+    },
+    {
+      "id": "x2",
+      "order": 1,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Prompt Type",
+      "template": "",
+      "dimensionRef": "322d7913-1dfe-4f8c-b5e1-fa798b8523c7"
+    },
+    {
+      "id": "x3",
+      "order": 2,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Tone",
+      "template": "",
+      "dimensionRef": "ebd34dd2-166e-4c03-be08-745388a52adb"
+    },
+    {
+      "id": "x4",
+      "order": 3,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Character",
+      "template": "",
+      "dimensionRef": "67c91e27-3c33-454f-8ed4-557cdefa7110"
+    },
+    {
+      "id": "x5",
+      "order": 4,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Layout",
+      "template": "",
+      "dimensionRef": "af7c2039-e552-42c0-99fb-3a04c89322b9"
+    },
+    {
+      "id": "x6",
+      "order": 5,
+      "enabled": true,
+      "type": "generative",
+      "label": "Gen Text",
+      "template": "",
+      "generativeInstruction": "Write a max 15 word line for a <Tone> <Prompt Type> about <Subtopic> featuring <Character> formatted as <Layout>."
+    },
+    {
+      "id": "x7",
+      "order": 6,
+      "enabled": true,
+      "type": "generative",
+      "label": "Gen Scene",
+      "template": "",
+      "generativeInstruction": "Describe a visual scene matching <Layout> featuring <Character> doing <Subtopic>."
+    },
+    {
+      "id": "x8",
+      "order": 7,
+      "enabled": true,
+      "type": "ref",
+      "label": "Final Output",
+      "template": "Text to Embed: {step_x6}\n\nVisual Scene: {step_x7}",
+      "stepRefs": [
+        "x6",
+        "x7"
+      ]
+    }
+  ],
+  "outputSettings": {
+    "outputType": [
+      "image_with_content"
+    ],
+    "format": "vertical"
+  },
+  "createdAt": "2026-03-17T04:21:40.813Z",
+  "updatedAt": "2026-03-17T04:21:40.813Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "442e6170-8ab8-4372-8d98-4ec3d0513214",
+  "name": "kilo Config",
+  "matrixId": "cfb0c6e9-bdd9-4ace-be36-58a56fa686fa",
+  "mode": "single",
+  "steps": [
+    {
+      "id": "ba47cb7b-ea8f-4fa0-b8ec-aa500a378143",
+      "order": 0,
+      "enabled": true,
+      "type": "pick",
+      "label": "cake build",
+      "template": "create a <Cakes> with the <favour> flavour",
+      "dimensionRef": "a77b2c06-a8df-4ab5-9fb3-c19bf5a97d51"
+    }
+  ],
+  "outputSettings": {
+    "outputType": [
+      "text"
+    ],
+    "tone": ""
+  },
+  "createdAt": "2026-03-16T18:54:17.410Z",
+  "updatedAt": "2026-03-16T19:02:44.238Z"
+}

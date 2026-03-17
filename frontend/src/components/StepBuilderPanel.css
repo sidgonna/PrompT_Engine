@@ -1,0 +1,140 @@
+/* StepBuilderPanel styles */
+.step-builder {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.step-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* Step Card */
+.step-card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: all var(--transition-fast);
+}
+
+.step-card.step-disabled {
+  opacity: 0.5;
+}
+
+.step-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--transition-fast);
+}
+
+.step-card-header:hover {
+  background: var(--bg-hover);
+}
+
+.step-card-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex: 1;
+  min-width: 0;
+}
+
+.step-grip {
+  color: var(--text-muted);
+  cursor: grab;
+  flex-shrink: 0;
+}
+
+.step-order {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  min-width: 14px;
+  text-align: center;
+}
+
+.step-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.step-card-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  flex-shrink: 0;
+}
+
+/* Step Card Body (expanded) */
+.step-card-body {
+  padding: var(--space-md);
+  padding-top: 0;
+  border-top: 1px solid var(--border-primary);
+  animation: slideUp 0.2s ease;
+}
+
+.step-card-body .form-group {
+  margin-bottom: var(--space-md);
+}
+
+.step-card-body .form-group:last-of-type {
+  margin-bottom: var(--space-sm);
+}
+
+.step-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border-primary);
+}
+
+/* Step refs */
+.step-refs-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.step-ref-check {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 11px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 3px 0;
+}
+
+.step-ref-check input[type="checkbox"] {
+  accent-color: var(--accent-cyan);
+}
+
+/* Quick Settings */
+.quick-settings {
+  border-top: 1px solid var(--border-primary);
+  flex-shrink: 0;
+}
+
+.quick-settings-body {
+  padding: var(--space-md);
+}
+
+.quick-settings-body .form-group {
+  margin-bottom: var(--space-md);
+}
+
+.quick-settings-body .form-group:last-child {
+  margin-bottom: 0;
+}

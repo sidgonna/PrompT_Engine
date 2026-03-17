@@ -1,0 +1,560 @@
+{
+  "id": "364c558b-3636-4cfe-a81f-2b8f77508640",
+  "name": "Food App Case",
+  "dimensions": [
+    {
+      "id": "852851bb-ed5a-4e34-b805-8e4f53f26899",
+      "name": "Final product",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "f6ce1b57-3e41-46c9-aed8-64b69fa3c67b",
+          "value": "none"
+        },
+        {
+          "id": "c0da697c-8532-455c-a747-7bef7b72f5f7",
+          "value": "text"
+        },
+        {
+          "id": "0d8d6f9d-d7b0-4a97-a03c-ed23ba37c3de",
+          "value": "image"
+        },
+        {
+          "id": "343f3040-56d1-4547-9ea8-08261fb4ef2b",
+          "value": "video"
+        }
+      ]
+    },
+    {
+      "id": "6a276fb4-8458-4f91-897e-23596bafa9af",
+      "name": "Seperator",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "eb68a5a4-f3f3-461c-952a-91ad86a3c724",
+          "value": ","
+        },
+        {
+          "id": "75d40005-2ef5-4451-9733-3f3f0973d5b4",
+          "value": ":"
+        },
+        {
+          "id": "405df739-ca85-4f63-a829-c9652540b504",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "id": "f5bbf89e-0e0b-44f3-8388-ba2b816203cd",
+      "name": "Who it was directed to",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "f44e129a-c509-4aaf-90af-f3b5055ffc37",
+          "value": "none"
+        },
+        {
+          "id": "f9838388-4c7c-4a3b-9eff-4e19c07c009d",
+          "value": "One person Image to viewer"
+        },
+        {
+          "id": "2a1cc57c-1204-470f-9f46-bb2c0e1c21b9",
+          "value": "Many people in image to viewer"
+        },
+        {
+          "id": "bb97a61f-ffac-4155-8c37-7e7ffcae0800",
+          "value": "me/doer to the world/viewer"
+        }
+      ]
+    },
+    {
+      "id": "5904f7d1-58e1-43d5-804c-e4529838cdf4",
+      "name": "announcer gender",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "ad99e938-63e8-4c01-a64a-0fbb8668ab67",
+          "value": "none"
+        },
+        {
+          "id": "fce71fae-80da-42d8-a8dc-5ad41c8a39d7",
+          "value": "man"
+        },
+        {
+          "id": "6911178b-8776-49c1-9ce9-2b4ad57e913c",
+          "value": "women"
+        },
+        {
+          "id": "1b9ba212-f419-482c-bec8-c8adebeb0f16",
+          "value": "group"
+        },
+        {
+          "id": "8d248952-de30-4a58-bba0-83fb554f6533",
+          "value": "baby boy"
+        },
+        {
+          "id": "d539d629-ac44-4c49-a6bd-9fd4544bf85b",
+          "value": "baby girl"
+        },
+        {
+          "id": "41e4bb8e-d7e7-4b61-af3e-f155f9dea8e4",
+          "value": "young boy"
+        },
+        {
+          "id": "47149829-73f6-43a7-91d5-e7cf7046c25c",
+          "value": "young girl"
+        }
+      ]
+    },
+    {
+      "id": "63b2e31e-a08c-4fe4-9992-2b38cbac27b0",
+      "name": "operations/action",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "79345e14-3c7f-4c7b-93d8-f46bc97f28a7",
+          "value": "none"
+        },
+        {
+          "id": "5dacaedd-9a40-4414-84f0-775bc51d7b0f",
+          "value": "Commitment announcement"
+        },
+        {
+          "id": "103010d8-bc71-4cc0-93c8-86d8dbcb624a",
+          "value": "actual commitment/setting a goal"
+        },
+        {
+          "id": "f54396d8-b001-4b9e-a2ce-0e2741513479",
+          "value": "Someone is monitoring your activities"
+        },
+        {
+          "id": "f8972f6a-4eff-4df8-895b-9f9b4b541e14",
+          "value": "someone is reminding of your activities"
+        },
+        {
+          "id": "cce91b91-4f7a-49ce-a16b-64ef090dcd26",
+          "value": "commitment achieved/goal achieved"
+        },
+        {
+          "id": "253d9ec2-93c1-4396-b86f-888e0d49eaa3",
+          "value": "commitment failed/goal failed"
+        },
+        {
+          "id": "4eca0add-d533-4b96-bb9c-ffc27bec57b8",
+          "value": "Puzzle solving success"
+        },
+        {
+          "id": "be29c31e-ccb0-4d4f-8333-6ad9d6550b36",
+          "value": "puzzle solving failed"
+        },
+        {
+          "id": "7b479e63-79eb-47f9-a5c8-00c2c3a9d730",
+          "value": "wonderful statement writing"
+        }
+      ]
+    },
+    {
+      "id": "4a25725f-a1ab-4ed6-bb3e-b01735648dbd",
+      "name": "type of action",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "90a490ba-5211-4b48-8435-72ce748fb6e5",
+          "value": "none"
+        },
+        {
+          "id": "da957386-737d-4b01-ac57-b38cf9f656a1",
+          "value": "goals"
+        }
+      ]
+    },
+    {
+      "id": "a98e65fa-0f30-45b4-a50d-9b93bb982af0",
+      "name": "type of emotion",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "bbe30e98-d8ec-4ccb-8154-4eabd23cee70",
+          "value": "none"
+        },
+        {
+          "id": "e06bcf86-6daa-402c-aaee-145a7f6bb542",
+          "value": "success"
+        },
+        {
+          "id": "57c8ba24-19ec-42b0-bbd0-159f6f125218",
+          "value": "failure"
+        }
+      ]
+    },
+    {
+      "id": "1d17e8ee-00ac-470d-91e8-36a9239a4c03",
+      "name": "announcer keyword",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "3e670fd8-319f-413d-9de9-bd820f1f7207",
+          "value": "none"
+        },
+        {
+          "id": "47e4171c-212b-4efa-9783-92addaac6230",
+          "value": "success"
+        },
+        {
+          "id": "6c1c7195-c7c7-48dd-8816-a8838104be96",
+          "value": "encouragement"
+        },
+        {
+          "id": "18392cde-b80c-4c7f-8100-93e3d87e586a",
+          "value": "motivation"
+        },
+        {
+          "id": "e65c208b-16fc-4b80-a962-872712c99dc4",
+          "value": "try harder"
+        },
+        {
+          "id": "2ea4598c-8655-458d-a112-5b891bcce897",
+          "value": "do it now"
+        },
+        {
+          "id": "4f705b99-2aea-42df-afa7-b6cb4a151083",
+          "value": "make it happen"
+        },
+        {
+          "id": "b1c8868d-fde2-4f05-8e85-da0e5d0f2046",
+          "value": "get it done"
+        },
+        {
+          "id": "faa1498c-b322-43ba-9cec-b9e2d80e5aa1",
+          "value": "go for it"
+        },
+        {
+          "id": "879141ae-5aed-44a6-85ea-80b05b05ab86",
+          "value": "do it"
+        }
+      ]
+    },
+    {
+      "id": "8b2022b1-1c7b-4c5b-95e5-745d627e4274",
+      "name": "what emotion",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "d600104a-a15b-4342-9dbe-518921ea36c6",
+          "value": "none"
+        },
+        {
+          "id": "f9281dd1-3991-4c85-b8b0-fbfc06b3d9be",
+          "value": "happy"
+        },
+        {
+          "id": "4a88873a-e25d-450d-b668-050e2b3acdc6",
+          "value": "angry"
+        },
+        {
+          "id": "4057219e-9815-4932-a4fa-3457f3f06a75",
+          "value": "frustrated"
+        }
+      ]
+    },
+    {
+      "id": "95b2ab26-1d80-4f06-8680-726814c7a3cb",
+      "name": "+ve/-ve",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "dbfe0b43-8723-4c37-8c06-6bfca60d5f18",
+          "value": "none"
+        },
+        {
+          "id": "13a82643-05ef-4106-a150-03cb14bf7710",
+          "value": "Positive"
+        },
+        {
+          "id": "88c5ce81-c6dc-4d18-9fca-e7d4532f5f14",
+          "value": "Positive"
+        },
+        {
+          "id": "b2da51fc-6e5f-4a34-887e-e31b86643de9",
+          "value": "Positive"
+        },
+        {
+          "id": "9f987cf0-edab-47b3-b167-dc3b72cf9164",
+          "value": "Positive"
+        },
+        {
+          "id": "d803592f-19df-4282-a841-8d01e1a22c4f",
+          "value": "Positive"
+        },
+        {
+          "id": "3e47b17d-c71a-4eed-b547-b0f77f6bc5fe",
+          "value": "Positive"
+        },
+        {
+          "id": "4dcf5934-f429-4843-bb1a-af08c32e3d1b",
+          "value": "Positive"
+        },
+        {
+          "id": "772a568c-b632-4183-bc18-3f76e9a6a745",
+          "value": "Positive"
+        },
+        {
+          "id": "3d028a41-0125-480e-995f-a6c8551746f5",
+          "value": "Positive"
+        },
+        {
+          "id": "c528a0b9-3b42-4090-8be0-209e55a4a622",
+          "value": "Positive"
+        },
+        {
+          "id": "e56a8afe-74a0-44e7-8a10-a9c2b3904ba6",
+          "value": "Positive"
+        },
+        {
+          "id": "3250e1fa-63d9-4378-84c1-c1b96d61e854",
+          "value": "Positive"
+        },
+        {
+          "id": "0aba2ba5-5fa9-4dd5-abd3-d268d712ecab",
+          "value": "Positive"
+        },
+        {
+          "id": "d39e0b57-d5a2-44b3-9ec1-17afabaa7e6a",
+          "value": "Positive"
+        },
+        {
+          "id": "210d3fb4-fc77-4eb4-9d37-8f834098c7ab",
+          "value": "Negative"
+        },
+        {
+          "id": "7f9c53a2-1c75-4d86-930a-e6903d0899a7",
+          "value": "Negative"
+        },
+        {
+          "id": "e2fff909-4e9b-4cf3-9b89-c331a0780685",
+          "value": "Negative"
+        },
+        {
+          "id": "82a13456-9256-45f5-9812-1cd31948da4e",
+          "value": "Negative"
+        },
+        {
+          "id": "62ed9493-6ac3-4561-8645-266c798c4eaa",
+          "value": "Negative"
+        },
+        {
+          "id": "dfadc2f2-4772-487b-9ffe-7204ff8d62a9",
+          "value": "Negative"
+        },
+        {
+          "id": "9d46f57b-6b3f-41c8-9371-1ae575df038a",
+          "value": "Negative"
+        },
+        {
+          "id": "adc4e7bb-a2d0-4d5c-b9d7-c81397ef5d1e",
+          "value": "Negative"
+        },
+        {
+          "id": "40f7106d-adfb-4c53-9960-b5b4744dbc5a",
+          "value": "Negative"
+        }
+      ]
+    },
+    {
+      "id": "7b389808-4063-4665-a04f-3118d095abee",
+      "name": "What physical action",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "8e3881a4-f82b-44c2-b289-5edf1ffcde6e",
+          "value": "none"
+        },
+        {
+          "id": "a23222ee-6228-4aba-9160-622226634bf1",
+          "value": "Clap"
+        },
+        {
+          "id": "f4a210ec-2f7d-41f4-bff6-aec8c82ef766",
+          "value": "heart-shaped"
+        },
+        {
+          "id": "d0c61e88-911a-4347-9f76-0eb83411427b",
+          "value": "one finger pointing"
+        },
+        {
+          "id": "b6e14ee0-6c8b-4218-bd8c-5cb475b974f1",
+          "value": "two hand one finger pointing"
+        },
+        {
+          "id": "10dbf91f-15c5-4cf6-b155-ca4541815178",
+          "value": "fist pump"
+        },
+        {
+          "id": "69fd2fe3-652c-409e-9a08-8823e7396755",
+          "value": "Shake hands"
+        },
+        {
+          "id": "e525da55-a983-4316-a5bb-6b120a1aff54",
+          "value": "jumping enjoy"
+        },
+        {
+          "id": "42628dda-9085-4e4a-9e0a-c8993f5348bc",
+          "value": "thumps up"
+        },
+        {
+          "id": "99375fcf-ebb8-48aa-a5d6-172b4284083a",
+          "value": "well done symbol"
+        },
+        {
+          "id": "d722ac4f-e54f-4f49-8a14-d0b7c32d660b",
+          "value": "waving hand"
+        },
+        {
+          "id": "8d332872-40dd-4ed2-bbfc-c19ad062b391",
+          "value": "flying kiss"
+        },
+        {
+          "id": "6be2c1d6-d50d-4963-9e7e-73e4af321185",
+          "value": "hugging"
+        },
+        {
+          "id": "f8df47d3-3f68-47e6-8868-84371545a352",
+          "value": "Dance"
+        },
+        {
+          "id": "97a7af78-c624-486d-85e9-cde4381b96e3",
+          "value": "twisting hips"
+        },
+        {
+          "id": "f9cfed10-9bc0-4923-b093-0cc42e8696b5",
+          "value": "Kick"
+        },
+        {
+          "id": "c798ff3d-202f-4648-af95-5561706b69da",
+          "value": "beat"
+        },
+        {
+          "id": "8de91f9a-7692-4700-a4d1-5d4a545f4788",
+          "value": "scream"
+        },
+        {
+          "id": "4fecb9f4-762e-4cbc-a554-842be563b3ab",
+          "value": "slapping"
+        },
+        {
+          "id": "cdc3f44f-934b-4736-b6da-6eca961734db",
+          "value": "yelling"
+        },
+        {
+          "id": "47ffaf0e-4c48-4fa8-b8bf-6aea78056651",
+          "value": "thumbs down"
+        },
+        {
+          "id": "1fe59a04-c022-43f2-9871-c6d850cbd992",
+          "value": "angry finger-pointing"
+        },
+        {
+          "id": "540ccfb3-a720-4804-9b8a-5c4968513fef",
+          "value": "punch"
+        },
+        {
+          "id": "052c49ee-67d1-4dc6-96e4-fa8230984d78",
+          "value": "middle finger"
+        }
+      ]
+    },
+    {
+      "id": "6d63af19-0265-46fa-b80e-41d57f053343",
+      "name": "facial expression",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "ad383593-04ff-40cb-a402-397cc8edd803",
+          "value": "none"
+        },
+        {
+          "id": "6241a3ac-6e17-4f4d-b800-d57d63d6b047",
+          "value": "stunned"
+        },
+        {
+          "id": "f42e516d-cbf9-4886-abdb-cbb087ee58fe",
+          "value": "surprised"
+        },
+        {
+          "id": "4e348572-b474-495e-affd-02a863894733",
+          "value": "mouth open"
+        },
+        {
+          "id": "2815848a-db64-42bc-b118-d31a3ff4721a",
+          "value": "wrinkles and face"
+        },
+        {
+          "id": "e76c1ff7-534b-4bde-afa3-df793d0edd9f",
+          "value": "wide open eyes"
+        }
+      ]
+    },
+    {
+      "id": "0d7a2bcb-317a-4f9d-9043-a2cbe171ceae",
+      "name": "side effects",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "a0377077-bf72-48c8-b658-ccf88649b855",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "id": "9c189c13-d978-46e3-9d74-bd77106261fa",
+      "name": "artifacts",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "7566545a-1a2b-410f-951d-b0c7f42f2508",
+          "value": "none"
+        },
+        {
+          "id": "aca5cf19-10b0-4f6f-9859-bc831de4c723",
+          "value": "shades"
+        },
+        {
+          "id": "9d499baf-1497-496f-9548-8a3e0005d5d4",
+          "value": "laptop"
+        },
+        {
+          "id": "0f339b87-6e87-4eae-a92c-a5d0e063260b",
+          "value": "phone"
+        }
+      ]
+    },
+    {
+      "id": "0174c646-dc89-4592-b96f-a92e4c76445d",
+      "name": "Comments",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "4bcfc9b2-4bbf-415c-b1a2-aebd92d978df",
+          "value": "use synonyms for most words"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-03-17T04:21:40.753Z",
+  "updatedAt": "2026-03-17T10:46:09.927Z"
+}

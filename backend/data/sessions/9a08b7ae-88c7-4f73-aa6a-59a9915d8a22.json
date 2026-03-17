@@ -1,0 +1,36 @@
+{
+  "id": "9a08b7ae-88c7-4f73-aa6a-59a9915d8a22",
+  "configId": "69059ba5-b134-4e07-9404-735b3be069cb",
+  "matrixId": "8457675d-6e62-44d4-b618-97552557aee7",
+  "executionResult": {
+    "resolvedValues": {
+      "step1": "Yoga",
+      "step2": "Funny",
+      "step3": "Robot coach",
+      "step4": "Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.",
+      "step5": "Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.",
+      "step6": "Text to embed: Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.\n\nScene details: Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.\n\nMake sure to feature a <Tone> vibe."
+    },
+    "outputs": [
+      {
+        "index": 0,
+        "prompt": "Pick SubTopic: Yoga\nPick Tone: Motivational\nPick Character: Robot coach\nGen Text Line: Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.\nGen Scene: Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.\nText to embed: Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.\n\nScene details: Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.\n\nMake sure to feature a <Tone> vibe.\n\n--- Output Requirements ---\nOutput type: image_with_content\nFormat: vertical"
+      },
+      {
+        "index": 1,
+        "prompt": "Pick SubTopic: Strength training\nPick Tone: Funny\nPick Character: Broccoli doing yoga\nGen Text Line: Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.\nGen Scene: Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.\nText to embed: Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.\n\nScene details: Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.\n\nMake sure to feature a <Tone> vibe.\n\n--- Output Requirements ---\nOutput type: image_with_content\nFormat: vertical"
+      },
+      {
+        "index": 2,
+        "prompt": "Pick SubTopic: Yoga\nPick Tone: Funny\nPick Character: Robot coach\nGen Text Line: Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.\nGen Scene: Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.\nText to embed: Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>.\n\nScene details: Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme.\n\nMake sure to feature a <Tone> vibe.\n\n--- Output Requirements ---\nOutput type: image_with_content\nFormat: vertical"
+      }
+    ],
+    "metadata": {
+      "totalTime": 0,
+      "stepsExecuted": 6,
+      "stepsSkipped": 0,
+      "warnings": []
+    }
+  },
+  "createdAt": "2026-03-17T04:01:52.610Z"
+}

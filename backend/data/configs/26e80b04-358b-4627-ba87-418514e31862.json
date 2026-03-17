@@ -1,0 +1,19 @@
+{
+  "id": "26e80b04-358b-4627-ba87-418514e31862",
+  "name": "test Config",
+  "matrixId": "44ea616b-e737-4b4f-9198-a9f4d9cc6864",
+  "mode": "batch",
+  "steps": [],
+  "outputSettings": {
+    "outputType": [
+      "text"
+    ],
+    "wordCount": {
+      "min": 10,
+      "max": 20
+    },
+    "format": "vertical"
+  },
+  "createdAt": "2026-03-16T19:29:36.602Z",
+  "updatedAt": "2026-03-17T00:31:31.861Z"
+}

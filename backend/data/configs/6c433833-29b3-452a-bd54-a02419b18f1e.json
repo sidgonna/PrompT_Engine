@@ -1,0 +1,37 @@
+{
+  "id": "6c433833-29b3-452a-bd54-a02419b18f1e",
+  "name": "Food Batch Strategy",
+  "matrixId": "364c558b-3636-4cfe-a81f-2b8f77508640",
+  "mode": "batch",
+  "batchSettings": {
+    "totalCount": 5
+  },
+  "steps": [
+    {
+      "id": "d3c892a0-00be-4911-8c24-e2c163e2d99f",
+      "order": 0,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Component",
+      "template": "",
+      "dimensionRef": "paste-dimension-id-here"
+    },
+    {
+      "id": "e66b9dad-1bca-43e5-9af8-4cad7f064d72",
+      "order": 1,
+      "enabled": true,
+      "type": "generative",
+      "label": "Draft Email",
+      "template": "",
+      "generativeInstruction": "Write a short email based on the component."
+    }
+  ],
+  "outputSettings": {
+    "outputType": [
+      "text"
+    ],
+    "format": "horizontal"
+  },
+  "createdAt": "2026-03-17T04:21:40.782Z",
+  "updatedAt": "2026-03-17T10:32:57.292Z"
+}

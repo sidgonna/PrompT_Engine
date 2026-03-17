@@ -1,0 +1,51 @@
+{
+  "id": "cc24ad4a-f960-4d93-b5f8-f28ad19c5290",
+  "name": "Food Project 1 Config",
+  "matrixId": "989becd7-cedb-4c02-a5d3-2b9e59ed7108",
+  "mode": "batch",
+  "steps": [
+    {
+      "id": "e52644a9-467e-437c-9c69-f34ffe713697",
+      "order": 0,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Leafy Vegetable",
+      "template": "",
+      "dimensionRef": "6fd6e6cc-1d26-4913-9810-b8db41665c2f"
+    },
+    {
+      "id": "8875895b-2d26-45e6-a187-cdbdf7516f9f",
+      "order": 1,
+      "enabled": true,
+      "type": "pick",
+      "label": "Tone",
+      "template": "",
+      "dimensionRef": "6300575c-9ceb-4cbf-990b-706ca7ab3ebc"
+    },
+    {
+      "id": "000169f8-d9ba-43ce-b1fb-f8952141a8a7",
+      "order": 2,
+      "enabled": true,
+      "type": "pick",
+      "label": "Angle",
+      "template": "",
+      "dimensionRef": "2b8f555a-3a0e-4e6c-89ca-f3f222c5bb8e"
+    },
+    {
+      "id": "1d345a68-c388-4cbe-9afb-0ed2350ac51f",
+      "order": 3,
+      "enabled": true,
+      "type": "generative",
+      "label": "Output",
+      "template": "",
+      "generativeInstruction": "\"Write content about <Leafy Green> in a <Tone> tone focusing on <Angle>. Make it a mini-paragraph 100-150 words.\""
+    }
+  ],
+  "outputSettings": {
+    "outputType": [
+      "text"
+    ]
+  },
+  "createdAt": "2026-03-17T04:48:10.542Z",
+  "updatedAt": "2026-03-17T05:01:58.547Z"
+}

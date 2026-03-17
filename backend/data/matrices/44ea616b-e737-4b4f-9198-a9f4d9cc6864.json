@@ -1,0 +1,24 @@
+{
+  "id": "44ea616b-e737-4b4f-9198-a9f4d9cc6864",
+  "name": "test",
+  "dimensions": [
+    {
+      "id": "a704859d-e9db-4517-83c2-200f28452ae5",
+      "name": "col1",
+      "enabled": true,
+      "selectionMode": "fixed",
+      "fixedValue": "smiling",
+      "values": []
+    },
+    {
+      "id": "a9b206cc-bf5d-4a00-885c-35b07e63b558",
+      "name": "handsome man",
+      "enabled": true,
+      "selectionMode": "fixed",
+      "fixedValue": "",
+      "values": []
+    }
+  ],
+  "createdAt": "2026-03-16T19:29:36.250Z",
+  "updatedAt": "2026-03-16T19:34:11.206Z"
+}

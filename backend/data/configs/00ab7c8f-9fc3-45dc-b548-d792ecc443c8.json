@@ -1,0 +1,78 @@
+{
+  "id": "00ab7c8f-9fc3-45dc-b548-d792ecc443c8",
+  "name": "Exercise Generator",
+  "matrixId": "1870bd10-e560-4822-9370-2e360cde44f6",
+  "mode": "batch",
+  "steps": [
+    {
+      "id": "step1",
+      "order": 0,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick SubTopic",
+      "template": "",
+      "dimensionRef": "10ba11ad-3936-4877-bb69-78611aa707f4"
+    },
+    {
+      "id": "step2",
+      "order": 1,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Tone",
+      "template": "",
+      "dimensionRef": "9343cd7b-71b0-4681-bb7e-f271f7376f7d"
+    },
+    {
+      "id": "step3",
+      "order": 2,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Character",
+      "template": "",
+      "dimensionRef": "77d0aabd-efe0-4d1f-a7d3-b9013cf0cb8e"
+    },
+    {
+      "id": "step4",
+      "order": 3,
+      "enabled": true,
+      "type": "generative",
+      "label": "Gen Text Line",
+      "template": "",
+      "generativeInstruction": "Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>."
+    },
+    {
+      "id": "step5",
+      "order": 4,
+      "enabled": true,
+      "type": "generative",
+      "label": "Gen Scene",
+      "template": "",
+      "generativeInstruction": "Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme."
+    },
+    {
+      "id": "step6",
+      "order": 5,
+      "enabled": true,
+      "type": "ref",
+      "label": "Final Assemble",
+      "template": "Text to embed: {step_step4}\n\nScene details: {step_step5}\n\nMake sure to feature a <Tone> vibe.",
+      "stepRefs": [
+        "step4",
+        "step5"
+      ]
+    }
+  ],
+  "outputSettings": {
+    "outputType": [
+      "image_with_content"
+    ],
+    "format": "vertical",
+    "batchCount": 3,
+    "wordCount": {
+      "min": 1,
+      "max": 28
+    }
+  },
+  "createdAt": "2026-03-17T03:52:28.630Z",
+  "updatedAt": "2026-03-17T04:07:59.625Z"
+}

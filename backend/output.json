@@ -1,0 +1,294 @@
+{
+  "ideas": {
+    "rowCount": 24,
+    "columns": [
+      "Final product",
+      "Seperator",
+      "Who it was directed to",
+      "announcer gender",
+      "operations/action",
+      "type of action",
+      "type of emotion",
+      "announcer keyword",
+      "what emotion",
+      "+ve/-ve",
+      "What physical action",
+      "facial expression",
+      "side effects",
+      "artifacts",
+      "Comments"
+    ],
+    "preview": [
+      {
+        "Final product": "none",
+        "Seperator": ",",
+        "Who it was directed to": "none",
+        "announcer gender": "none",
+        "operations/action": "none",
+        "type of action": "none",
+        "type of emotion": "none",
+        "announcer keyword": "none",
+        "what emotion": "none",
+        "+ve/-ve": "none",
+        "What physical action": "none",
+        "facial expression": "none",
+        "side effects": "none",
+        "artifacts": "none",
+        "Comments": "use synonyms for most words"
+      },
+      {
+        "Final product": "text",
+        "Seperator": ":",
+        "Who it was directed to": "One person Image to viewer",
+        "announcer gender": "man",
+        "operations/action": "Commitment announcement",
+        "type of action": "goals",
+        "type of emotion": "success",
+        "announcer keyword": "success",
+        "what emotion": "happy",
+        "+ve/-ve": "Positive",
+        "What physical action": "Clap",
+        "facial expression": "stunned",
+        "artifacts": "shades"
+      },
+      {
+        "Final product": "image",
+        "Seperator": ";",
+        "Who it was directed to": "Many people in image to viewer",
+        "announcer gender": "women",
+        "operations/action": "actual commitment/setting a goal",
+        "type of emotion": "failure",
+        "announcer keyword": "encouragement",
+        "what emotion": "angry",
+        "+ve/-ve": "Positive",
+        "What physical action": "heart-shaped",
+        "facial expression": "surprised",
+        "artifacts": "laptop"
+      }
+    ]
+  },
+  "Frendor": {
+    "rowCount": 11,
+    "columns": [
+      "What kind of content",
+      "Post type",
+      "Content theme",
+      "Content type",
+      "Image type",
+      "Image theme",
+      "Conversation"
+    ],
+    "preview": [
+      {
+        "What kind of content": "social media post",
+        "Post type": "Simple post",
+        "Content theme": "Question(s)",
+        "Content type": "Image",
+        "Image type": "Simple",
+        "Image theme": "People",
+        "Conversation": "2 people talk"
+      },
+      {
+        "What kind of content": "Article",
+        "Post type": "Sequence post",
+        "Content theme": "Question answer",
+        "Image type": "Left & Right",
+        "Image theme": "Cute babies",
+        "Conversation": "2 animals talk"
+      },
+      {
+        "What kind of content": "Blog",
+        "Content theme": "Story",
+        "Image type": "Top & Down",
+        "Image theme": "Cute kids",
+        "Conversation": "2 birds talk"
+      }
+    ]
+  },
+  "Quirks": {
+    "rowCount": 25,
+    "columns": [
+      "Person",
+      "Dress",
+      "hair style",
+      "Head gear",
+      "Funkiness",
+      "face gear",
+      "Jewelery",
+      "Expression",
+      "Emotion",
+      "Action",
+      "Hand gear",
+      "border"
+    ],
+    "preview": [
+      {
+        "Person": "baby",
+        "Dress": "no dress",
+        "hair style": "colored",
+        "Head gear": "cap",
+        "Funkiness": "funky",
+        "face gear": "sunglass",
+        "Jewelery": "colorful",
+        "Expression": "laughing",
+        "Emotion": "hapiness",
+        "Action": "reading paper",
+        "Hand gear": "wrist band",
+        "border": "bright border"
+      },
+      {
+        "Person": "old man",
+        "Dress": "super hero",
+        "hair style": "spiky",
+        "Head gear": "hat",
+        "Funkiness": "quirky",
+        "face gear": "face paint",
+        "Jewelery": "big",
+        "Expression": "angry",
+        "Emotion": "cuteness",
+        "Action": "biking",
+        "Hand gear": "watch",
+        "border": "bright border"
+      },
+      {
+        "Person": "old woman",
+        "Dress": "tie only",
+        "hair style": "funky",
+        "Head gear": "helmet",
+        "Funkiness": "outrageous",
+        "face gear": "mask ",
+        "Jewelery": "earring",
+        "Expression": "joyful",
+        "Emotion": "joy",
+        "Action": "smoking",
+        "Hand gear": "ring",
+        "border": "white board"
+      }
+    ]
+  },
+  "Temp": {
+    "rowCount": 3,
+    "columns": [
+      "What we are trying to do?"
+    ],
+    "preview": [
+      {
+        "What we are trying to do?": "generate images with certain action, emotion, which should create certain emotions in the viewer"
+      },
+      {
+        "What we are trying to do?": "generate videos with certain action, emotion, which should create certain emotions in the viewer"
+      },
+      {
+        "What we are trying to do?": "generate texts with certain action, emotion, which should create certain emotions in the viewer"
+      }
+    ]
+  },
+  "synonyms1": {
+    "rowCount": 126,
+    "columns": [
+      "write 20 personal and intense synonym or similar word for anger"
+    ],
+    "preview": [
+      {
+        "write 20 personal and intense synonym or similar word for anger": "1. Wrath"
+      },
+      {
+        "write 20 personal and intense synonym or similar word for anger": "2. Fury"
+      },
+      {
+        "write 20 personal and intense synonym or similar word for anger": "3. Rage"
+      }
+    ]
+  },
+  "synonyms2": {
+    "rowCount": 37,
+    "columns": [
+      "give me 30 words with better or aggressive meaning to commitment without numbers, 1 word per line list",
+      "give me 30 words with better or aggressive meaning to announcement without numbers, 1 word per line list",
+      "give me 30 words with better or aggressive meaning to motivation without numbers, 1 word per line list",
+      "give me 30 words with better or aggressive meaning to monitoring some 1 without numbers, 1 word per line list"
+    ],
+    "preview": [
+      {
+        "give me 30 words with better or aggressive meaning to commitment without numbers, 1 word per line list": "Ardor",
+        "give me 30 words with better or aggressive meaning to announcement without numbers, 1 word per line list": "Decree",
+        "give me 30 words with better or aggressive meaning to motivation without numbers, 1 word per line list": "Ambition",
+        "give me 30 words with better or aggressive meaning to monitoring some 1 without numbers, 1 word per line list": "Scrutinizing"
+      },
+      {
+        "give me 30 words with better or aggressive meaning to commitment without numbers, 1 word per line list": "Bond",
+        "give me 30 words with better or aggressive meaning to announcement without numbers, 1 word per line list": "Edict",
+        "give me 30 words with better or aggressive meaning to motivation without numbers, 1 word per line list": "Determination",
+        "give me 30 words with better or aggressive meaning to monitoring some 1 without numbers, 1 word per line list": "Inspecting"
+      },
+      {
+        "give me 30 words with better or aggressive meaning to commitment without numbers, 1 word per line list": "Compulsion",
+        "give me 30 words with better or aggressive meaning to announcement without numbers, 1 word per line list": "Mandate",
+        "give me 30 words with better or aggressive meaning to motivation without numbers, 1 word per line list": "Resolve",
+        "give me 30 words with better or aggressive meaning to monitoring some 1 without numbers, 1 word per line list": "Examining"
+      }
+    ]
+  },
+  "Prompts": {
+    "rowCount": 3,
+    "columns": [
+      "give me 20 words with similar meaning to commitment without numbers, 1 word per line list"
+    ],
+    "preview": [
+      {
+        "give me 20 words with similar meaning to commitment without numbers, 1 word per line list": "give me 20 words with better or aggressive meaning to commitment without numbers, 1 word per line list"
+      },
+      {
+        "give me 20 words with similar meaning to commitment without numbers, 1 word per line list": "give me 30 words with better or aggressive meaning to motivation without numbers, 1 word per line list"
+      },
+      {
+        "give me 20 words with similar meaning to commitment without numbers, 1 word per line list": "give me 30 words with better or aggressive meaning to monitoring some 1 without numbers, 1 word per line list"
+      }
+    ]
+  },
+  "Accessories": {
+    "rowCount": 3,
+    "columns": [
+      "Weirdness",
+      "Accessories",
+      "Colors"
+    ],
+    "preview": [
+      {
+        "Weirdness": "funky",
+        "Accessories": "shades",
+        "Colors": "bold colors"
+      },
+      {
+        "Weirdness": "queer",
+        "Accessories": "jewelery"
+      },
+      {
+        "Weirdness": "weird",
+        "Accessories": "head gear"
+      }
+    ]
+  },
+  "happy_vids": {
+    "rowCount": 18,
+    "columns": [
+      "Idea"
+    ],
+    "preview": [
+      {
+        "Idea": "firecrackers"
+      },
+      {
+        "Idea": "fireworks"
+      },
+      {
+        "Idea": "waterfall"
+      }
+    ]
+  },
+  "Man - Events": {
+    "rowCount": 0,
+    "columns": [],
+    "preview": []
+  }
+}

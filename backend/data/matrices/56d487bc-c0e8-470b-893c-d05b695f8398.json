@@ -1,0 +1,68 @@
+{
+  "id": "56d487bc-c0e8-470b-893c-d05b695f8398",
+  "name": "Exercise App Test",
+  "dimensions": [
+    {
+      "id": "b1e1ffe0-f6b3-4474-85dd-dff62a3eb70a",
+      "name": "SubTopic",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "a2d48efe-049c-4ca1-b56f-67e9337ad172",
+          "value": "Yoga"
+        },
+        {
+          "id": "395371ec-fb7e-46b2-87f6-1947a8405822",
+          "value": "Cardio"
+        },
+        {
+          "id": "5ac80e18-f9dd-4b56-9a38-917ac7454c60",
+          "value": "Strength training"
+        }
+      ]
+    },
+    {
+      "id": "f9b5f275-1d40-4547-9c6c-0aa7a0c27bf6",
+      "name": "Tone",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "0397befc-0f86-4d4d-bad7-9f35a25f7243",
+          "value": "Motivational"
+        },
+        {
+          "id": "94f6f136-f1a6-4cb5-854d-5936425d2bf8",
+          "value": "Funny"
+        },
+        {
+          "id": "67732332-ff18-4c2c-9d83-b6fd8c1acd1b",
+          "value": "Scientific"
+        }
+      ]
+    },
+    {
+      "id": "780998c3-d83a-44e6-9cb4-280c74e5da19",
+      "name": "Character",
+      "enabled": true,
+      "selectionMode": "random",
+      "values": [
+        {
+          "id": "c5bf95cc-4e86-4e13-8eb8-9513e59528de",
+          "value": "Sloth meditating"
+        },
+        {
+          "id": "c04303f5-2248-428a-a3b9-fee1b306729d",
+          "value": "Robot coach"
+        },
+        {
+          "id": "44edd555-ad12-4a59-bf8a-14481855567f",
+          "value": "Broccoli doing yoga"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-03-17T10:48:38.184Z",
+  "updatedAt": "2026-03-17T10:48:38.214Z"
+}

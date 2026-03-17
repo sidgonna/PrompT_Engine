@@ -1,0 +1,72 @@
+/* ============================================================================
+   App Layout — 3-panel grid
+   ============================================================================ */
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+
+.main-area {
+  flex: 1;
+  display: grid;
+  /* Left max 1fr, Middle 320px, Right 400px */
+  grid-template-columns: 1fr var(--panel-gap) 320px var(--panel-gap) 400px;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.matrix-area {
+  overflow: auto;
+  min-width: 0;
+}
+
+.step-area {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: var(--bg-secondary);
+  border-left: 1px solid var(--border-primary);
+}
+
+.output-area {
+  overflow: hidden;
+  background: var(--bg-secondary);
+  border-left: 1px solid var(--border-primary);
+}
+
+/* Panel dividers */
+.panel-divider-v {
+  width: var(--panel-gap);
+  background: var(--border-primary);
+  cursor: col-resize;
+}
+
+.panel-divider-h {
+  height: var(--panel-gap);
+  background: var(--border-primary);
+  cursor: row-resize;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .main-area {
+    grid-template-columns: 1fr var(--panel-gap) 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-area {
+    grid-template-columns: 1fr;
+  }
+  .panel-divider-v {
+    display: none;
+  }
+  .step-area {
+    border-left: none;
+    border-top: 1px solid var(--border-primary);
+  }
+}

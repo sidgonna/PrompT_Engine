@@ -1,0 +1,68 @@
+{
+  "id": "989becd7-cedb-4c02-a5d3-2b9e59ed7108",
+  "name": "Food Project 1",
+  "dimensions": [
+    {
+      "id": "6fd6e6cc-1d26-4913-9810-b8db41665c2f",
+      "name": "Leafy Green",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "7fc85d87-4f97-4eaf-9608-ec02d9bca8fb",
+          "value": "Spinach"
+        },
+        {
+          "id": "222fc994-3415-4f63-9fa5-e1e0efeaaa2e",
+          "value": "Kale"
+        },
+        {
+          "id": "6ab4394b-48a6-485f-9ee3-dd74236ccae9",
+          "value": "Swiss Chard"
+        }
+      ]
+    },
+    {
+      "id": "6300575c-9ceb-4cbf-990b-706ca7ab3ebc",
+      "name": "Tone",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "41675dfd-e049-422f-86e1-0fe6fe219232",
+          "value": "Motivational"
+        },
+        {
+          "id": "87a722c9-acb1-4678-96c6-2b4117d2d59a",
+          "value": "Scientific"
+        },
+        {
+          "id": "985b7b0f-a2cb-48a7-b794-fdd0cd10987c",
+          "value": "Funny"
+        }
+      ]
+    },
+    {
+      "id": "2b8f555a-3a0e-4e6c-89ca-f3f222c5bb8e",
+      "name": "Angle",
+      "enabled": true,
+      "selectionMode": "sequential",
+      "values": [
+        {
+          "id": "f126955e-4941-4558-b167-1ee68180367f",
+          "value": "Nutritional Profile"
+        },
+        {
+          "id": "0d81f16a-34c2-43c3-ba5b-d1214826f9b7",
+          "value": "Cooking methods"
+        },
+        {
+          "id": "645d9ecd-8f4c-442e-9222-239a8b74b59c",
+          "value": "Myths vs Facts"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-03-17T04:48:10.524Z",
+  "updatedAt": "2026-03-17T05:09:55.013Z"
+}

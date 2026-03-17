@@ -1,0 +1,76 @@
+{
+  "id": "ba1dcd5b-b3a4-48a3-a13d-7277bdbd48fb",
+  "name": "Exercise Generator",
+  "matrixId": "56d487bc-c0e8-470b-893c-d05b695f8398",
+  "mode": "batch",
+  "batchSettings": {
+    "totalCount": 3
+  },
+  "steps": [
+    {
+      "id": "step1",
+      "order": 0,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick SubTopic",
+      "template": "",
+      "dimensionRef": "b1e1ffe0-f6b3-4474-85dd-dff62a3eb70a"
+    },
+    {
+      "id": "step2",
+      "order": 1,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Tone",
+      "template": "",
+      "dimensionRef": "f9b5f275-1d40-4547-9c6c-0aa7a0c27bf6"
+    },
+    {
+      "id": "step3",
+      "order": 2,
+      "enabled": true,
+      "type": "pick",
+      "label": "Pick Character",
+      "template": "",
+      "dimensionRef": "780998c3-d83a-44e6-9cb4-280c74e5da19"
+    },
+    {
+      "id": "step4",
+      "order": 3,
+      "enabled": true,
+      "type": "generative",
+      "label": "Gen Text Line",
+      "template": "",
+      "generativeInstruction": "Write a max 15 word bold text line for a <Tone> poster about <SubTopic> featuring <Character>."
+    },
+    {
+      "id": "step5",
+      "order": 4,
+      "enabled": true,
+      "type": "generative",
+      "label": "Gen Scene",
+      "template": "",
+      "generativeInstruction": "Describe a simple visual scene for an image featuring <Character> in a gym or park, with pastel color scheme."
+    },
+    {
+      "id": "step6",
+      "order": 5,
+      "enabled": true,
+      "type": "ref",
+      "label": "Final Assemble",
+      "template": "Text to embed: {step_step4}\n\nScene details: {step_step5}\n\nMake sure to feature a <Tone> vibe.",
+      "stepRefs": [
+        "step4",
+        "step5"
+      ]
+    }
+  ],
+  "outputSettings": {
+    "outputType": [
+      "image_with_content"
+    ],
+    "format": "vertical"
+  },
+  "createdAt": "2026-03-17T10:48:38.223Z",
+  "updatedAt": "2026-03-17T10:48:38.223Z"
+}
