@@ -75,3 +75,15 @@
   gap: var(--space-sm);
   flex-shrink: 0;
 }
+
+.header-delete-btn {
+  padding: 4px;
+  color: var(--text-tertiary);
+  opacity: 0.6;
+}
+
+.header-delete-btn:hover {
+  color: var(--danger-color);
+  opacity: 1;
+  background: rgba(239, 68, 68, 0.1);
+}

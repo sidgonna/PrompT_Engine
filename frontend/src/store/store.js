@@ -44,6 +44,23 @@ const useStore = create((set, get) => ({
     }
   },
 
+  deleteMatrix: async (id) => {
+    try {
+      await matrixApi.delete(id);
+      set((s) => ({
+        matrices: s.matrices.filter((m) => m.id !== id),
+        currentMatrix: s.currentMatrix?.id === id ? null : s.currentMatrix
+      }));
+      get().showToast('Project deleted', 'success');
+      // If we deleted the active project, clear config too
+      if (get().currentMatrix === null) {
+        set({ currentConfig: null });
+      }
+    } catch (err) {
+      get().showToast(err.message, 'error');
+    }
+  },
+
   addDimension: async (dim) => {
     const matrix = get().currentMatrix;
     if (!matrix) return;
@@ -177,6 +194,22 @@ const useStore = create((set, get) => ({
     try {
       const res = await configApi.reorderSteps(config.id, stepOrder);
       set({ currentConfig: res.data });
+    } catch (err) {
+      get().showToast(err.message, 'error');
+    }
+  },
+
+  deleteConfig: async (id) => {
+    try {
+      await configApi.delete(id);
+      set((s) => {
+        const remaining = s.configs.filter((c) => c.id !== id);
+        return {
+          configs: remaining,
+          currentConfig: s.currentConfig?.id === id ? null : s.currentConfig
+        };
+      });
+      get().showToast('Configuration deleted', 'success');
     } catch (err) {
       get().showToast(err.message, 'error');
     }
