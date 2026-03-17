@@ -112,61 +112,64 @@ app.use(
 // Start server
 // ---------------------------------------------------------------------------
 
-app.listen(PORT, () => {
-  console.log(`
-╔══════════════════════════════════════════════════╗
-║         Master Prompter Backend v1.0.0           ║
-╠══════════════════════════════════════════════════╣
-║  Server running on http://localhost:${PORT}        ║
-║  Data directory: ${DATA_DIR ?? "./data"}                       ║
-╚══════════════════════════════════════════════════╝
-
-API Endpoints:
-  GET    /api/health
+// Only start the server if we're not in a serverless environment (Vercel)
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`
+  ╔══════════════════════════════════════════════════╗
+  ║         Master Prompter Backend v1.0.0           ║
+  ╠══════════════════════════════════════════════════╣
+  ║  Server running on http://localhost:${PORT}        ║
+  ║  Data directory: ${DATA_DIR ?? "./data"}                       ║
+  ╚══════════════════════════════════════════════════╝
   
-  Matrix:
-  GET    /api/matrices
-  POST   /api/matrices
-  GET    /api/matrices/:id
-  PUT    /api/matrices/:id
-  DELETE /api/matrices/:id
-  POST   /api/matrices/:id/dimensions
-  PUT    /api/matrices/:id/dimensions/:dimId
-  DELETE /api/matrices/:id/dimensions/:dimId
-  POST   /api/matrices/:id/dimensions/:dimId/values
-  PUT    /api/matrices/:id/dimensions/:dimId/values/:valId
-  DELETE /api/matrices/:id/dimensions/:dimId/values/:valId
-  
-  Config:
-  GET    /api/configs
-  POST   /api/configs
-  GET    /api/configs/:id
-  PUT    /api/configs/:id
-  DELETE /api/configs/:id
-  PATCH  /api/configs/:id/steps/reorder
-  PATCH  /api/configs/:id/steps/:stepId/toggle
-  PATCH  /api/configs/:id/dimensions/:dimId/toggle
-  
-  Template:
-  GET    /api/templates
-  POST   /api/templates
-  GET    /api/templates/:id
-  PUT    /api/templates/:id
-  DELETE /api/templates/:id
-  POST   /api/templates/:id/domains
-  DELETE /api/templates/:id/domains/:domainName
-  
-  Engine:
-  POST   /api/engine/validate
-  POST   /api/engine/preview
-  POST   /api/engine/execute
-  POST   /api/engine/export
-  
-  Session:
-  GET    /api/sessions
-  GET    /api/sessions/:id
-  DELETE /api/sessions/:id
-  `);
-});
+  API Endpoints:
+    GET    /api/health
+    
+    Matrix:
+    GET    /api/matrices
+    POST   /api/matrices
+    GET    /api/matrices/:id
+    PUT    /api/matrices/:id
+    DELETE /api/matrices/:id
+    POST   /api/matrices/:id/dimensions
+    PUT    /api/matrices/:id/dimensions/:dimId
+    DELETE /api/matrices/:id/dimensions/:dimId
+    POST   /api/matrices/:id/dimensions/:dimId/values
+    PUT    /api/matrices/:id/dimensions/:dimId/values/:valId
+    DELETE /api/matrices/:id/dimensions/:dimId/values/:valId
+    
+    Config:
+    GET    /api/configs
+    POST   /api/configs
+    GET    /api/configs/:id
+    PUT    /api/configs/:id
+    DELETE /api/configs/:id
+    PATCH  /api/configs/:id/steps/reorder
+    PATCH  /api/configs/:id/steps/:stepId/toggle
+    PATCH  /api/configs/:id/dimensions/:dimId/toggle
+    
+    Template:
+    GET    /api/templates
+    POST   /api/templates
+    GET    /api/templates/:id
+    PUT    /api/templates/:id
+    DELETE /api/templates/:id
+    POST   /api/templates/:id/domains
+    DELETE /api/templates/:id/domains/:domainName
+    
+    Engine:
+    POST   /api/engine/validate
+    POST   /api/engine/preview
+    POST   /api/engine/execute
+    POST   /api/engine/export
+    
+    Session:
+    GET    /api/sessions
+    GET    /api/sessions/:id
+    DELETE /api/sessions/:id
+    `);
+  });
+}
 
 export default app;
